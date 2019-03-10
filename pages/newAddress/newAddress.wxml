@@ -1,0 +1,58 @@
+<view class="content">
+   <view class="hr"></view>
+   <view class="bg">
+     <form bindsubmit="formSubmit" bindreset="formReset">
+         <view class="item">
+            <view class="name">联系人</view>
+            <view class="value">
+               <input type="text" placeholder="收货人姓名" placeholder-class="holder" name="userName"/>
+            </view>
+         </view>
+         <view class="line"></view>
+         <view class="item">
+            <view class="name">性别</view>
+            <view class="value">
+            <radio-group class="radin-group" bindchange="radioChange" name="sex">
+               <radio value="先生">先生</radio>
+               <radio value="女士">女士</radio>
+            </radio-group>
+            </view>
+         </view>
+         <view class="line"></view>
+         <view class="item">
+            <view class="name">手机号码</view>
+            <view class="value">
+               <input type="text" placeholder="鲜蜂侠联系您的电话" placeholder-class="holder" name="phone"/>
+            </view>
+         </view>
+         <view class="line"></view>
+         <view class="item">
+            <view class="name">所在城市</view>
+            <view class="value">
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{cities}}">
+            <view class="picker">
+              {{cities[index]}}
+            </view>
+               
+            </picker>
+            </view>
+         </view>
+         <view class="line"></view>
+         <view class="item">
+            <view class="name">收货地址</view>
+            <view class="value">
+               <input type="text" placeholder="请输入您的小区、大厦或学校" placeholder-class="holder" name="address"/>
+            </view>
+         </view>
+         <view class="line"></view>
+         <view class="item">
+            <view class="name">门牌号</view>
+            <view class="value">
+               <input type="text" placeholder="请输入楼号门牌号详细信息" placeholder-class="holder" name="num"/>
+            </view>
+         </view>
+         <view class="line"></view>
+         <button class="btn" form-type="submit">保存</button>
+     </form>
+   </view>
+</view>

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/supermarket/supermarket",
+    "pages/shoppingcart/shoppingcart",
+    "pages/me/me",
+    "pages/address/address",
+    "pages/newAddress/newAddress"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFD600",
+    "navigationBarTitleText": "配送至：英才幼儿园",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/bar/index-0.jpg",
+        "selectedIconPath": "/images/bar/index-1.jpg"
+      },
+      {
+        "pagePath": "pages/supermarket/supermarket",
+        "text": "闪送超市",
+        "iconPath": "/images/bar/supermarket-0.jpg",
+        "selectedIconPath": "/images/bar/supermarket-1.jpg"
+      },
+      {
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "text": "购物车",
+        "iconPath": "/images/bar/shoppingcart-0.jpg",
+        "selectedIconPath": "/images/bar/shoppingcart-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/bar/me-0.jpg",
+        "selectedIconPath": "/images/bar/me-1.jpg"
+      }
+    ]
+  }
+}

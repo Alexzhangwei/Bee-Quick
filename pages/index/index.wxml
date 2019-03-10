@@ -1,0 +1,152 @@
+<view class="haibao">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="nav">
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/1-xin.jpg" style="width:43px;height:39px;"></image>
+    </view>
+    <view>
+      每日签到
+    </view>
+  </view>
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/1-nian.jpg" style="width:43px;height:39px;"></image>
+    </view>
+    <view>
+      疯狂秒杀
+    </view>
+  </view>
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/1-kuai.jpg" style="width:43px;height:39px;"></image>
+    </view>
+    <view>
+      鲜货直供
+    </view>
+  </view>
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/1-le.jpg" style="width:43px;height:39px;"></image>
+    </view>
+    <view>
+      整箱购
+    </view>
+  </view>
+</view>
+<view class="hr"></view>
+<view class="bld">
+  <image src="/images/index/2-bld.jpg" style="width:200px;height:49px;"></image>
+</view>
+<view>
+  <image src="/images/index/2-rexiao.jpg" style="width:50%;height:60px;"></image>
+  <image src="/images/index/2-tejia.jpg" style="width:50%;height:60px;"></image>
+</view>
+<view class="nav">
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/2-niunai.jpg" style="width:37px;height:32px;"></image>
+    </view>
+    <view class="title">
+      牛奶面包
+    </view>
+  </view>
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/2-yinliao.jpg" style="width:37px;height:32px;"></image>
+    </view>
+    <view class="title">
+      饮料酒水
+    </view>
+  </view>
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/2-shuiguo.jpg" style="width:37px;height:32px;"></image>
+    </view>
+    <view class="title">
+      优选水果
+    </view>
+  </view>
+  <view class="nav-item">
+    <view>
+      <image src="/images/index/2-gengduo.jpg" style="width:37px;height:32px;"></image>
+    </view>
+    <view class="title">
+      更多
+    </view>
+  </view>
+</view>
+<view class="pic">
+  <image src="/images/index/3-tttj.jpg" style="width:45%;height:69px;"></image>
+  <image src="/images/index/3-bgslz.jpg" style="width:45%;height:69px;"></image>
+  <image src="/images/index/3-yhbnt.jpg" style="width:45%;height:69px;"></image>
+  <image src="/images/index/3-hgzx.jpg" style="width:45%;height:69px;"></image>
+</view>
+<view class="item">
+  <view class="status">
+    <view class="type">
+      <view>牛奶面包</view>
+      <view>—</view>
+    </view>
+    <view class="more">
+      更多 >
+    </view>
+  </view>
+  <view class="haibao">
+    <image src="/images/index/4-nxnn.jpg" style="width:322px;height:84px;"></image>
+  </view>
+  <view class="orders">
+<block wx:for="{{goods}}">
+  <view class="order">
+      <view>
+        <image src="{{item.pic}}" style="width:59px;height:45px;"></image>
+      </view>
+      <view class="orderName">{{item.name}}</view>
+      <view class="priceInfo">
+        <view class="price">￥{{item.price}}</view>
+        <view class="count" id="{{item.id}}" bindtap="addGoods">+</view>
+      </view>
+    </view>
+</block>
+  <!--
+    <view class="order">
+      <view>
+        <image src="/images/index/4-cz.jpg" style="width:59px;height:45px;"></image>
+      </view>
+      <view class="orderName">蒙牛纯甄酸奶原味220g</view>
+      <view class="priceInfo">
+        <view class="price">￥5.5</view>
+        <view class="count">+</view>
+      </view>
+    </view>
+    <view class="order">
+      <view>
+        <image src="/images/index/4-whh.jpg" style="width:59px;height:45px;"></image>
+      </view>
+      <view class="orderName">娃哈哈AD钙奶220g*4支</view>
+      <view class="priceInfo">
+        <view class="price">￥8</view>
+        <view class="count">+</view>
+      </view>
+    </view>
+    <view class="order">
+      <view>
+        <image src="/images/index/4-whh.jpg" style="width:59px;height:45px;"></image>
+      </view>
+      <view class="orderName">伊利安慕希希腊酸奶原味205g</view>
+      <view class="priceInfo">
+        <view class="price">￥6</view>
+        <view class="count">+</view>
+      </view>
+    </view>
+    -->
+  </view>
+</view>

@@ -1,0 +1,28 @@
+<view class="item">
+  <view class="icon">
+     <image src="/images/supermarket/1-hj.jpg" style="width:70px;height:87px;"></image>
+  </view>
+  <view class="info">
+     <view class="name">爱鲜蜂打火机1个</view>
+     <view class="priceInfo">
+        <view class="price">￥2</view>
+        <view class="count">+</view>
+     </view>
+  </view>
+</view>
+<view class="hr"></view>
+
+<view class="item">
+  <view class="icon">
+     <image src="/images/supermarket/1-qs.jpg" style="width:70px;height:87px;"></image>
+  </view>
+  <view class="info">
+     <view class="name">美立方老北京橙味汽水420ml</view>
+     <view class="priceInfo">
+        <view class="price">￥4</view>
+        <view class="count">+</view>
+     </view>
+  </view>
+</view>
+<view class="hr"></view>
+

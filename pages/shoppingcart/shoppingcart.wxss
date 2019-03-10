@@ -1,0 +1,135 @@
+.content{
+    font-family: "Microsoft YaHei";
+    height: 600px;
+    background-color: #F9F9F8;
+}
+.hr{
+    height: 12px;
+}
+.address{
+    height: 42px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.desc{
+    line-height: 42px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #ff0000;
+}
+.detail{
+    position: absolute;
+    right: 10px;
+    line-height: 42px;
+}
+.info{
+    background-color: #ffffff;
+}
+.sscs{
+    text-align: center;
+}
+.line{
+    border: 1px solid #cccccc;
+    opacity: 0.2;
+}
+.receive{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right{
+    width:50%;
+    text-align: right;
+    font-size: 15px;
+    color:#5DAFED;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.freight{
+    font-size: 13px;
+    margin-right: 20px;
+}
+.detail2{
+    position: absolute;
+    right: 10px;
+    line-height: 60px;
+}
+.items{
+    background-color: #ffffff;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    align-items: center;
+}
+.order{
+    width: 100%;
+    height: 87px;
+}
+.title{
+    font-size: 15px;
+}
+.priceInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.price{
+    width:65%;
+    font-size: 15px;
+    color: #ff0000;
+    text-align: left;
+}
+.minus,.add{
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    width: 25px;
+    color: #ff0000;
+    text-align: center;
+}
+.count{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    padding-left: 10px;
+}
+.selectAll{
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.total{
+    width: 30%;
+    font-size: 15px;
+    color: #ff0000;
+    font-weight: bold;
+}
+.opr{
+    position: absolute;
+    right: 0px;
+    width: 92px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FFD600;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}

@@ -1,0 +1,58 @@
+<view class="content">
+   <view class="hr"></view>
+<block wx:for="{{addresses}}">
+      <view class="item">
+       <view class="info {{flag==index?'select':'normal'}}" id="{{index}}" bindtap="switchNav">
+           <view class="name">
+               <text>{{item.userName}}</text>
+               <text>{{item.phone}}</text>
+           </view>
+           <view class="address">
+              <text>{{item.address}}</text>
+              <text>{{item.num}}</text>
+           </view>
+       </view>
+       <view class="opr">
+          <image src="/images/cart/xg.jpg" style="width:33px;height:33px;"></image>
+       </view>
+   </view>
+   <view class="line"></view>
+</block>
+   <!--
+   <view class="item">
+       <view class="info {{flag==0?'select':'normal'}}" id="0" bindtap="switchNav">
+           <view class="name">
+               <text>刘凯文</text>
+               <text>15235612287</text>
+           </view>
+           <view class="address">
+              <text>英才幼儿园</text>
+              <text>601</text>
+           </view>
+       </view>
+       <view class="opr">
+          <image src="/images/cart/xg.jpg" style="width:33px;height:33px;"></image>
+       </view>
+   </view>
+   <view class="line"></view>
+   <view class="item">
+       <view class="info {{flag==1?'select':'normal'}}" id="1" bindtap="switchNav">
+           <view class="name">
+               <text>刘慕研</text>
+               <text>15235622227</text>
+           </view>
+           <view class="address">
+              <text>丰台科技园</text>
+              <text>801</text>
+           </view>
+       </view>
+       <view class="opr">
+          <image src="/images/cart/xg.jpg" style="width:33px;height:33px;"></image>
+       </view>
+   </view>
+   <view class="line"></view>
+   -->
+   <view class="bg">
+      <view class="newAddress" bindtap="newAddress">+新增地址</view>
+   </view>
+</view>
